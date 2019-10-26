@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+ }
+ body{
+     position: relative;
+ }
+  
+ .header{
+     display: flex;
+     flex-flow: row wrap;
+     justify-content:space-between ;
+     align-items: center;
+     background-color: rgba(0, 0, 0, 0.295);
+     z-index: 999;
+     padding-right: 140px;
+     position: sticky;
+     top: 0;
+ 
+     &__li{
+         
+         font-size: 1.3rem;
+         font-weight: bold;
+         color: white;
+         margin: 2rem;
+     }
+     &__ul{
+         display: flex;
+         flex-flow: row wrap;
+         justify-content: space-between;
+         list-style: none;
+         
+ 
+         
+     }
+ }
+ 
+ .home{
+     background: url(../img/spirit.jpg);
+     height: 1000px;
+     padding: 0 10% 100px;
+ 
+     &__hello{
+         width: 50%;
+         background-color: #00c5fc71;
+         display: flex;
+         flex-flow: column nowrap;
+         color: white;
+         
+     }
+     &__title{
+         font-size: 3rem;
+ 
+     }
+ 
+     &__text{
+         font-size: 1.3rem;
+     }
+ }
+ 
